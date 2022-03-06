@@ -1,6 +1,6 @@
 export const MenuBarItems = [
     {
-        name: "Summary4",
+        name: "Summary3",
         anchor: "/securoServ/",
         color: "#f8c901"
     },
