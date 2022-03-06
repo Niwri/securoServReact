@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap');
+
+body {
+  font-family: 'Kanit';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#menuBarContainer {
+  width: 360px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#menuBarContainer div {
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#menuBarContainer a {
+  text-decoration: none;
+  display: block;
+  width: inherit;
+}
+
+#menuBarContainer a:hover p {
+  color: black;
+  font-size: 32px;
+}
+
+#menuBarContainer p {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: #555555;
+  transition: 0.2s;
+  margin-left: 50px;
+}
+
+.menuBarContainerSide {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  height: 100%;
+  border-style: solid;
+  border-width: 0;
+  border-right-width: 5px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(135deg, #f8c901 45%, #e72d2d 70%, #c32378 90%);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 25px;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 3px;
+  border-color: rgb(0, 0, 0, 0.1);
+  height: 75px;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#header img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#header h1 {
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+
+.mainPage {
+  margin-left: 365px;
+  max-width: 100%;
+  position: relative;
+  transition: 1s;
+}
+
+.page {
+  padding: 50px 150px;
+}
+
+.page h1 {
+  font-size: 50px;
+}
+
+.page h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.page p {
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.page h2 {
+  font-size: 30px;
+  font-weight: bold;
 }

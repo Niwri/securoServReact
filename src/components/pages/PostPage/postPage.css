@@ -1,0 +1,8 @@
+.postPageContainer {
+    display: flex;
+    gap: 100px;
+}
+
+.postPageContainer img {
+    width: 575px;
+}
