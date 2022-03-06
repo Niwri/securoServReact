@@ -1,12 +1,12 @@
 export const MenuBarItems = [
     {
-        name: "Summary3",
-        anchor: "/securoServ/",
+        name: "Summary4",
+        anchor: "/",
         color: "#f8c901"
     },
     {
         name: "Posts",
-        anchor: "/securoServ/posts",
+        anchor: "/posts",
         color: "#f7be04"
     },
     {
