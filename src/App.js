@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Routes, Route, Switch, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import {
   PostPage,
@@ -23,13 +23,13 @@ function App() {
                 </div>
                 <div className="mainPage">
                       <Routes>
-                        <Route exact path="/" element={<SummaryPage/>}/>
-                        <Route exact path="/posts" element={<PostPage/>}/>
-                        <Route exact path="/stories" element={<StoryPage/>}/>
-                        <Route exact path="/contact" element={<ContactPage/>}/>
-                        <Route exact path="/comments" element={<CommentPage/>}/>
-                        <Route exact path="/advertisers" element={<AdvertiserPage/>}/>
-                        <Route exact path="/devices" element={<DevicePage/>}/>
+                        <Route path="/" element={<SummaryPage/>}/>
+                        <Route path="/posts" element={<PostPage/>}/>
+                        <Route path="/stories" element={<StoryPage/>}/>
+                        <Route path="/contact" element={<ContactPage/>}/>
+                        <Route path="/comments" element={<CommentPage/>}/>
+                        <Route path="/advertisers" element={<AdvertiserPage/>}/>
+                        <Route path="/devices" element={<DevicePage/>}/>
                       </Routes>
                 </div>
               </div>
