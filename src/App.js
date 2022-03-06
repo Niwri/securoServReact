@@ -23,13 +23,13 @@ function App() {
                 </div>
                 <div className="mainPage">
                       <Routes>
-                        <Route path="/" element={<SummaryPage/>}/>
-                        <Route path="/posts" element={<PostPage/>}/>
-                        <Route path="/stories" element={<StoryPage/>}/>
-                        <Route path="/contact" element={<ContactPage/>}/>
-                        <Route path="/comments" element={<CommentPage/>}/>
-                        <Route path="/advertisers" element={<AdvertiserPage/>}/>
-                        <Route path="/devices" element={<DevicePage/>}/>
+                        <Route path="/securoServ/" element={<SummaryPage/>}/>
+                        <Route path="/securoServ/posts" element={<PostPage/>}/>
+                        <Route path="/securoServ/stories" element={<StoryPage/>}/>
+                        <Route path="/securoServ/contact" element={<ContactPage/>}/>
+                        <Route path="/securoServ/comments" element={<CommentPage/>}/>
+                        <Route path="/securoServ/advertisers" element={<AdvertiserPage/>}/>
+                        <Route path="/securoServ/devices" element={<DevicePage/>}/>
                       </Routes>
                 </div>
               </div>
