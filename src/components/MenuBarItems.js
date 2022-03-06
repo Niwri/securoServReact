@@ -1,37 +1,37 @@
 export const MenuBarItems = [
     {
         name: "Summary",
-        anchor: "/instagramWhistle/",
+        anchor: "/",
         color: "#f8c901"
     },
     {
         name: "Posts",
-        anchor: "/instagramWhistle/posts",
+        anchor: "/posts",
         color: "#f7be04"
     },
     {
         name: "Stories",
-        anchor: "/instagramWhistle/stories",
+        anchor: "/stories",
         color: "#f5ae08"
     },
     {
         name: "Contact List",
-        anchor: "/instagramWhistle/contact",
+        anchor: "/contact",
         color: "#f38d10"
     },
     {
         name: "Comments",
-        anchor: "/instagramWhistle/comments",
+        anchor: "/comments",
         color: "#ef671a"
     },
     {
         name: "Advertisers",
-        anchor: "/instagramWhistle/advertisers",
+        anchor: "/advertisers",
         color: "#e93b27",
     },
     {
         name: "Devices",
-        anchor: "/instagramWhistle/devices",
+        anchor: "/devices",
         color: "#e31e36",
     },
 ]

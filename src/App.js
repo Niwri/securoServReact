@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, Switch, Router } from "react-router-dom";
 
 import {
   PostPage,
@@ -17,24 +17,22 @@ import MenuBar from './components/MenuBar';
 function App() {
 
   return (
-      <div>
-        <div className="menuBarContainerSide">
-          <MenuBar/>
-        </div>
-        <div className="mainPage">
-          <BrowserRouter>
-            <Routes>
-              <Route path="/instagramWhistle/" element={<SummaryPage/>}/>
-              <Route path="/instagramWhistle/posts" element={<PostPage/>}/>
-              <Route path="/instagramWhistle/stories" element={<StoryPage/>}/>
-              <Route path="/instagramWhistle/contact" element={<ContactPage/>}/>
-              <Route path="/instagramWhistle/comments" element={<CommentPage/>}/>
-              <Route path="/instagramWhistle/advertisers" element={<AdvertiserPage/>}/>
-              <Route path="/instagramWhistle/devices" element={<DevicePage/>}/>
-            </Routes>
-          </BrowserRouter>
-        </div>
-      </div>
+              <div>
+                <div className="menuBarContainerSide">
+                  <MenuBar/>
+                </div>
+                <div className="mainPage">
+                      <Routes basename={process.env.PUBLIC_URL}>
+                        <Route exact path="/" element={<SummaryPage/>}/>
+                        <Route exact path="/posts" element={<PostPage/>}/>
+                        <Route exact path="/stories" element={<StoryPage/>}/>
+                        <Route exact path="/contact" element={<ContactPage/>}/>
+                        <Route exact path="/comments" element={<CommentPage/>}/>
+                        <Route exact path="/advertisers" element={<AdvertiserPage/>}/>
+                        <Route exact path="/devices" element={<DevicePage/>}/>
+                      </Routes>
+                </div>
+              </div>
   );
 }
 

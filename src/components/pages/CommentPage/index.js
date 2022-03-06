@@ -12,7 +12,7 @@ const index = () => {
 
   return (
     <div className="page">
-        <h1>Stories</h1>
+        <h1>Comments</h1>
 
         <div className="commentContainer">  
           <div>

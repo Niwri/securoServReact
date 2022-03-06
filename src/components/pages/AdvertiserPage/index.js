@@ -11,7 +11,7 @@ const index = () => {
 
   return (
     <div className="page">
-        <h1>Posts</h1>
+        <h1>Advertisers</h1>
 
         <h3>Information Collected by Instagram between...<br/>
             {timeInfo[timeInfo.length-1].title} to {data.uploadDate}.</h3> 
