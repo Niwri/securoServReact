@@ -22,7 +22,7 @@ function App() {
                   <MenuBar/>
                 </div>
                 <div className="mainPage">
-                      <Routes basename={process.env.PUBLIC_URL}>
+                      <Routes>
                         <Route exact path="/" element={<SummaryPage/>}/>
                         <Route exact path="/posts" element={<PostPage/>}/>
                         <Route exact path="/stories" element={<StoryPage/>}/>
