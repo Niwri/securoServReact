@@ -14,12 +14,6 @@ const index = () => {
   var videoViewInfo = require('../../userData/ads_and_content/videos_watched.json').impressions_history_videos_watched;
   let totalVideo = videoViewInfo.length;
   let postCount = 0;
-  try {
-    var postInfo = require('../../userData/past_instagram_insights/posts.json');
-    postCount = postInfo.length;
-  } catch (err) {
-    postCount = 0;
-  }
 
   return (
     <div className="page">
