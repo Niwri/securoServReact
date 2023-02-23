@@ -9,5 +9,5 @@ to know what data is being given to instagram (and by extension, to other simila
 ## Tools & Frameworks
 JavaScript, HTML/CSS, React.js
 
-## DevPost Link
+## Devpost Link
 https://devpost.com/software/team-9-vsfniz
